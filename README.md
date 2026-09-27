@@ -10,8 +10,8 @@ I wanted a comparison that shows what the DSN dataset supports by itself and wha
 | --- | --- |
 | `train.csv` | 6,818 DSN rows with `total_sales`. |
 | `test.csv` | 1,705 DSN rows awaiting predictions. |
-| `original_bigmart.csv` | Optional local copy of the original Big Mart training file with `Item_Outlet_Sales`. |
-| `Kazeem_Mayowa_DSN_Mart_External_KNN.ipynb` | Data checks, DSN-only baseline, external search, error review, and export. |
+| `bigmart.csv` | Optional local copy of the original Big Mart training file with `Item_Outlet_Sales`. |
+| `Kazeem_Mayowa_DSN_BOOTCAMP_ML_TRACK.ipynb` | Data checks, DSN-only baseline, external search, error review, and export. |
 | `kazeem_mayowa_submission.csv` | Created by the last notebook cell; columns `id,total_sales`. |
 
 The external CSV is not included here. The notebook reads `original_bigmart.csv` if present or fetches the public file from the URL in its first code cell.
